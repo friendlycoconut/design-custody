@@ -1,0 +1,1 @@
+import{_ as t,c as n,a as r,b as s,w as a,r as l,o as u,d as c}from"./index-BhDyuRFM.js";const d={name:"About"};function p(_,o,i,m,f,x){const e=l("router-link");return u(),n("div",null,[o[1]||(o[1]=r("h1",null,"About",-1)),s(e,{to:"/"},{default:a(()=>o[0]||(o[0]=[c("Go to Home")])),_:1})])}const k=t(d,[["render",p]]);export{k as default};
