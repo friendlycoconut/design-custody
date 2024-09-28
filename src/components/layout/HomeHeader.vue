@@ -1,5 +1,3 @@
-<script></script>
-
 <template>
   <section class="bg-gray-900 text-white">
     <div
