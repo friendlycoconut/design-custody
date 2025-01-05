@@ -1,129 +1,207 @@
 <template>
-  <section>
+  <section class="bg-gray-900 text-white">
     <div
-      class="container mx-auto py-20 px-6 md:px-12 lg:px-40 bg-white dark:bg-gray-900"
+      class="container mx-auto max-w-screen-xl px-4 py-4 sm:px-6 sm:py-12 lg:px-8 lg:py-16"
     >
-      <header class="text-center mb-12 py-14">
+      <div class="mx-auto max-w-lg text-center">
         <h2
-          class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-4xl lg:text-5xl"
+          class="bg-gradient-to-r py-4 from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-4xl lg:text-5xl"
         >
-          <span class="block"> Everything You need </span>
+          Everything you need
         </h2>
 
         <p
           class="mx-auto mt-6 max-w-2xl text-base sm:text-lg lg:text-xl text-gray-700 dark:text-white"
         >
           Enjoy customizable lists, team work tools, and smart tracking all in
-          one place. Set tasks, get reminders, and see your progress simply and
-          quickly.
+          one place. See your progress simply and quickly.
         </p>
-      </header>
+      </div>
 
-      <div class="flow-root">
-        <div class="-my-8 divide-y divide-gray-100 dark:divide-gray-800">
-          <details
-            class="group py-8 [&_summary::-webkit-details-marker]:hidden"
-            open
+      <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <a
+          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-purple-500/10"
+          href="#"
+        >
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-pink-500 dark:size-10"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
           >
-            <summary
-              class="flex cursor-pointer items-center justify-between text-gray-900 dark:text-white"
-            >
-              <h2 class="text-lg font-medium">
-                How does it pricing works for the teams?
-              </h2>
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm0 0a8.949 8.949 0 0 0 4.951-1.488A3.987 3.987 0 0 0 13 16h-2a3.987 3.987 0 0 0-3.951 3.512A8.948 8.948 0 0 0 12 21Zm3-11a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+            />
+          </svg>
 
-              <span class="relative size-5 shrink-0">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="absolute inset-0 size-5 opacity-100 group-open:opacity-0"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
+          <h2 class="mt-4 text-xl font-bold text-white">UX | UI</h2>
 
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="absolute inset-0 size-5 opacity-0 group-open:opacity-100"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
-              </span>
-            </summary>
+          <p class="mt-1 text-sm text-gray-300">
+            We create intuitive, user-centered designs that enhance the overall
+            experience of your website or app.
+          </p>
+        </a>
 
-            <p class="mt-4 leading-relaxed text-gray-700 dark:text-gray-200">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-              veritatis molestias culpa in, recusandae laboriosam neque aliquid
-              libero nesciunt voluptate dicta quo officiis explicabo
-              consequuntur distinctio corporis earum similique!
-            </p>
-          </details>
-
-          <details
-            class="group py-8 [&_summary::-webkit-details-marker]:hidden"
+        <a
+          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-green-500/10"
+          href="#"
+        >
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-pink-500 dark:size-10"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
           >
-            <summary
-              class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900 dark:text-white"
-            >
-              <h2 class="text-lg font-medium">
-                How long does it takes to make a website or custom design?
-              </h2>
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"
+            />
+          </svg>
 
-              <span class="relative size-5 shrink-0">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="absolute inset-0 size-5 opacity-100 group-open:opacity-0"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
+          <h2 class="mt-4 text-xl font-bold text-white">Development</h2>
 
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="absolute inset-0 size-5 opacity-0 group-open:opacity-100"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
-              </span>
-            </summary>
+          <p class="mt-1 text-sm text-gray-300">
+            Our development team brings your ideas to life with clean, efficient
+            code and robust, scalable solutions.
+          </p>
+        </a>
 
-            <p class="mt-4 leading-relaxed text-gray-700 dark:text-gray-200">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-              veritatis molestias culpa in, recusandae laboriosam neque aliquid
-              libero nesciunt voluptate dicta quo officiis explicabo
-              consequuntur distinctio corporis earum similique!
-            </p>
-          </details>
-        </div>
+        <a
+          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-blue-500/10"
+          href="#"
+        >
+          <svg
+            class="w-6 h-6 dark:size-10 text-pink-200 dark:text-pink-500"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M8 8v8m0-8a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 8a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8-8a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 0a4 4 0 0 1-4 4h-1a3 3 0 0 0-3 3"
+            />
+          </svg>
+
+          <h2 class="mt-4 text-xl font-bold text-white">CRM Integration</h2>
+
+          <p class="mt-1 text-sm text-gray-300">
+            We integrate your cite or app with top CRM systems to streamline
+            workflows, enhance customer management.
+          </p>
+        </a>
+
+        <a
+          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+          href="#"
+        >
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-pink-500 dark:size-10"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 17h6l3 3v-3h2V9h-2M4 4h11v8H9l-3 3v-3H4V4Z"
+            />
+          </svg>
+
+          <h2 class="mt-4 text-xl font-bold text-white">
+            Technical Support and Maintenance
+          </h2>
+
+          <p class="mt-1 text-sm text-gray-300">
+            Ongoing support, updates, troubleshooting to ensure your website
+            runs smoothly.
+          </p>
+        </a>
+
+        <a
+          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-cyan-500/10"
+          href="#"
+        >
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-pink-500 dark:size-10"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6"
+            />
+          </svg>
+
+          <h2 class="mt-4 text-xl font-bold text-white">
+            E-commerce sollutions
+          </h2>
+
+          <p class="mt-1 text-sm text-gray-300">
+            Development of online stores with easy management, secure payment
+            systems and optimized user experience.
+          </p>
+        </a>
+
+        <a
+          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+          href="#"
+        >
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-pink-500 dark:size-10"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M7.05 4.05A7 7 0 0 1 19 9c0 2.407-1.197 3.874-2.186 5.084l-.04.048C15.77 15.362 15 16.34 15 18a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1c0-1.612-.77-2.613-1.78-3.875l-.045-.056C6.193 12.842 5 11.352 5 9a7 7 0 0 1 2.05-4.95ZM9 21a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2h-4a1 1 0 0 1-1-1Zm1.586-13.414A2 2 0 0 1 12 7a1 1 0 1 0 0-2 4 4 0 0 0-4 4 1 1 0 0 0 2 0 2 2 0 0 1 .586-1.414Z"
+              clip-rule="evenodd"
+            />
+          </svg>
+
+          <h2 class="mt-4 text-xl font-bold text-white">
+            Website Redesign and Optimization
+          </h2>
+
+          <p class="mt-1 text-sm text-gray-300">
+            Revamp your existing site with a fresh design, improved performance,
+            and enhanced user engagement.
+          </p>
+        </a>
       </div>
     </div>
   </section>
@@ -132,6 +210,9 @@
 <style scoped>
 .container {
   max-width: 5000px;
-  padding-top: 4rem;
+  padding-bottom: 10rem;
+  margin: 0 auto;
+
+  text-align: left;
 }
 </style>

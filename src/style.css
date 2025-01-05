@@ -26,18 +26,18 @@ a:hover {
   color: #535bf2;
 }
 
-html{
-  margin: 0 auto;
-  width: 100%;
-}
-
-
 body {
   margin: 0;
-
-
+  display: flex;
+  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+
+  background: #000000; /* Old browsers */
+  background: -moz-linear-gradient(left,#3b82f6 0%, #111827 10%, #111827 90%, #9333ea 100%); 
+  background: -webkit-linear-gradient(left, #3b82f6 0%,#111827 10%,#111827 90%,#9333ea 100%); 
+  background: linear-gradient(to right, #599e72  0%,#111827 10%,#111827 90%,#651baa 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b82f6', endColorstr='#3b82f6',GradientType=1 ); /* IE6-9 */
 }
 
 h1 {
@@ -68,7 +68,12 @@ button:focus-visible {
   padding: 2em;
 }
 
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
 
+  text-align: center;
+}
 
 @media (prefers-color-scheme: light) {
   :root {

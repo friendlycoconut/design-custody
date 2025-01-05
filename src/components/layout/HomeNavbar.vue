@@ -1,7 +1,7 @@
 <template>
   <header class="bg-white dark:bg-gray-900 shadow">
     <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-      <div class="flex h-16 items-center justify-between">
+      <div class="flex h-16 items-center justify-end">
         <!-- Logo -->
         <div></div>
 
@@ -44,7 +44,7 @@
         </nav>
 
         <!-- Contact Button -->
-        <div class="hidden md:block">
+        <div class="hidden md:block contact-btn">
           <a
             href="#"
             class="rounded-md bg-blue-500 px-5 py-2 text-sm font-medium text-white hover:bg-teal-600"
@@ -165,5 +165,8 @@ export default defineComponent({
 <style scoped>
 header {
   transition: all 0.3s ease-in-out;
+}
+.contact-btn {
+  margin-left: 2rem;
 }
 </style>

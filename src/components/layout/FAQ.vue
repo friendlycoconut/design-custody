@@ -1,7 +1,7 @@
 <template>
   <section>
     <div
-      class="container mx-auto py-20 px-6 md:px-12 lg:px-40 bg-white dark:bg-gray-900"
+      class="container mx-auto py-12 px-6 md:px-12 lg:px-40 bg-white dark:bg-gray-900"
     >
       <header class="text-center mb-12 py-14">
         <h2
