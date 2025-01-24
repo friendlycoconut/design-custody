@@ -34,9 +34,9 @@ body {
   min-height: 100vh;
 
   background: #000000; /* Old browsers */
-  background: -moz-linear-gradient(left,#3b82f6 0%, #111827 10%, #111827 90%, #9333ea 100%); 
-  background: -webkit-linear-gradient(left, #3b82f6 0%,#111827 10%,#111827 90%,#9333ea 100%); 
-  background: linear-gradient(to right, #599e72  0%,#111827 10%,#111827 90%,#651baa 100%);
+  background: -moz-linear-gradient(left,#3b82f6 0%, #111827 7%, #111827 93%, #9333ea 100%); 
+  background: -webkit-linear-gradient(left, #3b82f6 0%,#111827 7%,#111827 93%,#9333ea 100%); 
+  background: linear-gradient(to right, #599e72  0%,#111827 7%,#111827 93%,#651baa 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b82f6', endColorstr='#3b82f6',GradientType=1 ); /* IE6-9 */
 }
 
