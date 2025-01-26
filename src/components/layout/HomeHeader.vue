@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-900 text-white">
+  <section class="bg-gray-900 text-white gradient">
     <div
       class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center"
     >
@@ -29,3 +29,31 @@
     </div>
   </section>
 </template>
+
+<style scoped>
+.gradient {
+  background: #000000; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #3b82f6 0%,
+    #111827 7%,
+    #111827 93%,
+    #9333ea 100%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    #3b82f6 0%,
+    #111827 7%,
+    #111827 93%,
+    #9333ea 100%
+  );
+  background: linear-gradient(
+    to right,
+    #599e72 0%,
+    #111827 7%,
+    #111827 93%,
+    #651baa 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#599e72', endColorstr='#651baa',GradientType=1 ); /* IE6-9 */
+}
+</style>

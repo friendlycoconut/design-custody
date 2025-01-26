@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-900 text-white">
+  <section class="bg-gray-900 text-white gradient">
     <div
       class="container mx-auto max-w-screen-xl px-4 py-4 sm:px-6 sm:py-12 lg:px-8 lg:py-16"
     >
@@ -300,5 +300,31 @@
   padding-bottom: 10rem;
   margin: 0 auto;
   text-align: left;
+}
+
+.gradient {
+  background: #000000; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #3b82f6 0%,
+    #111827 7%,
+    #111827 93%,
+    #9333ea 100%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    #3b82f6 0%,
+    #111827 7%,
+    #111827 93%,
+    #9333ea 100%
+  );
+  background: linear-gradient(
+    to right,
+    #599e72 0%,
+    #111827 7%,
+    #111827 93%,
+    #651baa 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#599e72', endColorstr='#651baa',GradientType=1 ); /* IE6-9 */
 }
 </style>
