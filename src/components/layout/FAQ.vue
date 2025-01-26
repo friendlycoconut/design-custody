@@ -1,27 +1,33 @@
 <template>
   <section>
     <div
-      class="container mx-auto py-12 px-6 md:px-12 lg:px-40 bg-white dark:bg-gray-900"
+      class="container mx-auto max-w-screen-xl px-4 py-4 sm:px-6 sm:py-12 lg:px-8 lg:py-16"
     >
-      <header class="text-center mb-12 py-14">
+      <header class="text-center mb-12">
         <h2
           class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-4xl lg:text-5xl"
         >
-          <span class="block"> Frequently asked questions </span>
+          <span class="block"> Frequently Asked Questions </span>
         </h2>
+
+        <p
+          class="mx-auto mt-6 max-w-2xl text-base sm:text-lg lg:text-xl text-gray-700 dark:text-white"
+        >
+          The most popular FAQs, you may have wanted to ask.
+        </p>
       </header>
 
       <div class="flow-root">
-        <div class="-my-8 divide-y divide-gray-100 dark:divide-gray-800">
+        <div class="-my-6 divide-y divide-gray-100 dark:divide-gray-800">
           <details
-            class="group py-8 [&_summary::-webkit-details-marker]:hidden"
+            class="group py-6 [&_summary::-webkit-details-marker]:hidden"
             open
           >
             <summary
               class="flex cursor-pointer items-center justify-between text-gray-900 dark:text-white"
             >
               <h2 class="text-lg font-medium">
-                How does it pricing works for the teams?
+                How does pricing work for teams?
               </h2>
 
               <span class="relative size-5 shrink-0">
@@ -66,13 +72,13 @@
           </details>
 
           <details
-            class="group py-8 [&_summary::-webkit-details-marker]:hidden"
+            class="group py-6 [&_summary::-webkit-details-marker]:hidden"
           >
             <summary
               class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900 dark:text-white"
             >
               <h2 class="text-lg font-medium">
-                How long does it takes to make a website or custom design?
+                How long does it take to make a website or custom design?
               </h2>
 
               <span class="relative size-5 shrink-0">
@@ -123,7 +129,10 @@
 
 <style scoped>
 .container {
-  max-width: 5000px;
-  padding-top: 4rem;
+  height: 30rem;
+  max-width: 5000px; /* A more reasonable max width */
+  padding-top: 5rem; /* Adjusted padding to prevent excess height */
+
+  padding-bottom: 10rem;
 }
 </style>

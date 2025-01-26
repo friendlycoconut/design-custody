@@ -20,11 +20,11 @@
 
       <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         <a
-          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-purple-500/10"
+          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-green-500/10 hover:shadow-green-500/10"
           href="#"
         >
           <svg
-            class="w-6 h-6 text-gray-800 dark:text-pink-500 dark:size-10"
+            class="w-6 h-6 text-gray-800 dark:text-green-500 dark:size-10"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -32,8 +32,24 @@
             fill="none"
             viewBox="0 0 24 24"
           >
+            <defs>
+              <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop
+                  offset="0%"
+                  style="stop-color: #2fdea6; stop-opacity: 1"
+                />
+                <stop
+                  offset="50%"
+                  style="stop-color: #2fa6de; stop-opacity: 1"
+                />
+                <stop
+                  offset="100%"
+                  style="stop-color: #259db8; stop-opacity: 1"
+                />
+              </linearGradient>
+            </defs>
             <path
-              stroke="currentColor"
+              stroke="url(#grad1)"
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="2"
@@ -50,20 +66,30 @@
         </a>
 
         <a
-          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-green-500/10"
+          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-blue-500/10 hover:shadow-blue-500/10"
           href="#"
         >
           <svg
-            class="w-6 h-6 text-gray-800 dark:text-pink-500 dark:size-10"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            class="w-10 h-10"
             fill="none"
+            stroke="url(#grad1)"
             viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
+            <defs>
+              <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop
+                  offset="0%"
+                  style="stop-color: #259db8; stop-opacity: 1"
+                />
+                <stop
+                  offset="100%"
+                  style="stop-color: #2f69de; stop-opacity: 1"
+                />
+              </linearGradient>
+            </defs>
             <path
-              stroke="currentColor"
+              stroke="url(#grad2)"
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="2"
@@ -80,11 +106,11 @@
         </a>
 
         <a
-          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-blue-500/10"
+          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-purple-500/10"
           href="#"
         >
           <svg
-            class="w-6 h-6 dark:size-10 text-pink-200 dark:text-pink-500"
+            class="w-6 h-6 dark:size-10 text-purple-200 dark:text-purple-500"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -92,8 +118,24 @@
             fill="none"
             viewBox="0 0 24 24"
           >
+            <defs>
+              <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop
+                  offset="0%"
+                  style="stop-color: #2f69de; stop-opacity: 1"
+                />
+                <stop
+                  offset="70%"
+                  style="stop-color: #8f2fde; stop-opacity: 1"
+                />
+                <stop
+                  offset="100%"
+                  style="stop-color: #8f2fde; stop-opacity: 1"
+                />
+              </linearGradient>
+            </defs>
             <path
-              stroke="currentColor"
+              stroke="url(#grad3)"
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="2"
@@ -104,13 +146,13 @@
           <h2 class="mt-4 text-xl font-bold text-white">CRM Integration</h2>
 
           <p class="mt-1 text-sm text-gray-300">
-            We integrate your cite or app with top CRM systems to streamline
+            We integrate your site or app with top CRM systems to streamline
             workflows, enhance customer management.
           </p>
         </a>
 
         <a
-          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-green-500/10 hover:shadow-green-500/10"
           href="#"
         >
           <svg
@@ -122,8 +164,24 @@
             fill="none"
             viewBox="0 0 24 24"
           >
+            <defs>
+              <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop
+                  offset="0%"
+                  style="stop-color: #2fdea6; stop-opacity: 1"
+                />
+                <stop
+                  offset="50%"
+                  style="stop-color: #2fa6de; stop-opacity: 1"
+                />
+                <stop
+                  offset="100%"
+                  style="stop-color: #259db8; stop-opacity: 1"
+                />
+              </linearGradient>
+            </defs>
             <path
-              stroke="currentColor"
+              stroke="url(#grad4)"
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="2"
@@ -142,11 +200,11 @@
         </a>
 
         <a
-          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-cyan-500/10"
+          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-blue-500/10 hover:shadow-blue-500/10"
           href="#"
         >
           <svg
-            class="w-6 h-6 text-gray-800 dark:text-pink-500 dark:size-10"
+            class="w-6 h-6 text-gray-800 dark:text-blue-500 dark:size-10"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -154,8 +212,20 @@
             fill="none"
             viewBox="0 0 24 24"
           >
+            <defs>
+              <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop
+                  offset="0%"
+                  style="stop-color: #259db8; stop-opacity: 1"
+                />
+                <stop
+                  offset="100%"
+                  style="stop-color: #2f69de; stop-opacity: 1"
+                />
+              </linearGradient>
+            </defs>
             <path
-              stroke="currentColor"
+              stroke="url(#grad5)"
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="2"
@@ -164,7 +234,7 @@
           </svg>
 
           <h2 class="mt-4 text-xl font-bold text-white">
-            E-commerce sollutions
+            E-commerce Solutions
           </h2>
 
           <p class="mt-1 text-sm text-gray-300">
@@ -174,11 +244,11 @@
         </a>
 
         <a
-          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+          class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-purple-500/10 hover:shadow-purple-500/10"
           href="#"
         >
           <svg
-            class="w-6 h-6 text-gray-800 dark:text-pink-500 dark:size-10"
+            class="w-6 h-6 text-gray-800 dark:text-purple-500 dark:size-10"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -186,7 +256,24 @@
             fill="currentColor"
             viewBox="0 0 24 24"
           >
+            <defs>
+              <linearGradient id="grad6" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop
+                  offset="0%"
+                  style="stop-color: #2f69de; stop-opacity: 1"
+                />
+                <stop
+                  offset="70%"
+                  style="stop-color: #8f2fde; stop-opacity: 1"
+                />
+                <stop
+                  offset="100%"
+                  style="stop-color: #8f2fde; stop-opacity: 1"
+                />
+              </linearGradient>
+            </defs>
             <path
+              fill="url(#grad6)"
               fill-rule="evenodd"
               d="M7.05 4.05A7 7 0 0 1 19 9c0 2.407-1.197 3.874-2.186 5.084l-.04.048C15.77 15.362 15 16.34 15 18a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1c0-1.612-.77-2.613-1.78-3.875l-.045-.056C6.193 12.842 5 11.352 5 9a7 7 0 0 1 2.05-4.95ZM9 21a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2h-4a1 1 0 0 1-1-1Zm1.586-13.414A2 2 0 0 1 12 7a1 1 0 1 0 0-2 4 4 0 0 0-4 4 1 1 0 0 0 2 0 2 2 0 0 1 .586-1.414Z"
               clip-rule="evenodd"
@@ -212,7 +299,6 @@
   max-width: 5000px;
   padding-bottom: 10rem;
   margin: 0 auto;
-
   text-align: left;
 }
 </style>
