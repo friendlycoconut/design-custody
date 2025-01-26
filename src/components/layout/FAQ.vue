@@ -1,7 +1,7 @@
 <template>
   <section>
     <div
-      class="container mx-auto py-8 px-6 md:px-12 lg:px-20 bg-white dark:bg-gray-900"
+      class="container mx-auto max-w-screen-xl px-4 py-4 sm:px-6 sm:py-12 lg:px-8 lg:py-16"
     >
       <header class="text-center mb-12">
         <h2
@@ -130,7 +130,9 @@
 <style scoped>
 .container {
   height: 30rem;
-  max-width: 1200px; /* A more reasonable max width */
-  padding: 2rem; /* Adjusted padding to prevent excess height */
+  max-width: 5000px; /* A more reasonable max width */
+  padding-top: 5rem; /* Adjusted padding to prevent excess height */
+
+  padding-bottom: 10rem;
 }
 </style>
